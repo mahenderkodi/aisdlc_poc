@@ -1,0 +1,12 @@
+From: Priya (HR)
+Subject: Leave rules for the new system
+
+Hi Ganesh,
+Rules we follow:
+1. Employee cannot apply more than available balance
+2. Same employee cannot have two leaves on same dates
+3. Manager must give a reason when rejecting
+4. Employee should see status: pending / approved / rejected
+5. Sick leave - employees can apply even if balance is 0, we adjust later
+We don't need cancel for now.
+Thanks, Priya

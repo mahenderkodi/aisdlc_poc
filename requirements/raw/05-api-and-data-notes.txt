@@ -1,0 +1,11 @@
+API ideas (rough)
+- apply leave: employee id, type, from date, to date, reason
+- get my leaves + balance
+- manager: list pending for my team
+- manager: approve / reject with comment
+
+Data
+- employee: id, name, email, manager id
+- leave balance: employee, type, year, total, used
+- leave request: id, employee, type, from, to, days, status, reason, manager comment, created time
+Days = count all days from start to end (weekends also counted for POC)

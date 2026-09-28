@@ -1,0 +1,12 @@
+Kickoff meeting - Leave management POC
+Date: 28-Sep-2026
+Attendees: Mahender (eng), Rani (HR), Ravi (Eng Manager)
+
+- Today leave requests come by email, manager replies on email, HR updates Excel
+- Problem: emails get lost, Excel balance wrong, HR spends 2 days every month fixing balances
+- Want a simple system: employee applies leave, manager approves or rejects
+- Balance should reduce automatically after approval
+- Only 2 leave types for now: Annual and Sick
+- Annual = 18 days per year, Sick = 12 days per year
+- No UI for POC, only API. Later a UI team may build on it
+- Demo needed to leadership end of October

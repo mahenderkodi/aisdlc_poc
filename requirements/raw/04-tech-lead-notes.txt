@@ -1,0 +1,10 @@
+Tech notes (Ganesh)
+- Java 21, Spring Boot 3.x, Maven
+- MySQL 8 running locally in Docker (docker-compose)
+- Flyway for DB migrations
+- REST JSON API, OpenAPI/Swagger docs
+- Layered: controller -> service -> repository
+- JUnit 5 + Testcontainers or H2 for tests (decide)
+- No real SSO: pass user id in a header for POC (X-User-Id)
+- Logs must not contain personal data
+- Should run with: mvn spring-boot:run

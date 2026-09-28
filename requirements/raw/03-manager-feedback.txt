@@ -1,0 +1,6 @@
+Ravi (Eng Manager) - chat message
+
+As a manager I want to see all pending requests of my team in one list.
+Approve / reject should be one click (one API call).
+A manager should NOT approve his own leave.
+Sick leave should also check balance, otherwise people misuse it.
