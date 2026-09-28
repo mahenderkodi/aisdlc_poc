@@ -11,7 +11,7 @@ updated: 2026-09-28
 - **TECH-03** REST JSON API, OpenAPI/Swagger docs. (src: S4 L5)
 - **TECH-04** Layered: controller -> service -> repository. (src: S4 L6)
 - **TECH-05** JUnit 5 + Testcontainers or H2 for tests (decide). (src: S4 L7) → OQ-16
-- **TECH-06** No real SSO: pass user id in a header for POC (X-User-Id). (src: S4 L8) → OQ-11, OQ-12
+- **TECH-06** No real SSO: pass user id in a header for POC (X-User-Id). The caller from X-User-Id is the employee who applies. (src: S4 L8; DEC-09) → OQ-12
 
 ## 2. Environment (local / CI / deploy)
 - **TECH-07** MySQL 8 running locally in Docker (docker-compose). (src: S4 L3)
@@ -23,6 +23,7 @@ updated: 2026-09-28
 ## 4. Constraints and milestones
 - **CON-01** No UI for POC, only API. (src: S1 L11)
 - **CON-02** Demo needed to leadership end of October. (src: S1 L12) → OQ-22
+- **CON-03** Employees, managers and yearly balances are loaded as seed data at startup. No API to create them in the POC. (src: S5 L8; S5 L9; DEC-10) → OQ-26
 
 ## 5. Assumptions (must be confirmed)
 - **ASM-01** ⚠ Later a UI team may build on the API. (src: S1 L11) → OQ-21
